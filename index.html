@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT-24</title>
+</head>
+<body>
+    <h1>Chapter # 43-48</h1>
+    <h3>Alert Box</h3>
+
+    <!-- Q-1  -->
+    <a href="#" onclick="link()";>Google</a><br><br>
+
+    <!-- Q-2  -->
+    <h2>Mobile Phone Lock Up</h2>
+    <img onclick="user()"; width="15%" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBd7ZcEsm4ao2JLmpjdPbPVhCVbYw4Nl98n67Exa3hw&s" alt="">
+    <img onclick="user()"; width="15%" height="200px" src="https://images.priceoye.pk/apple-iphone-13-pro-pakistan-priceoye-wb6qy-270x270.webp" alt="">
+    <img onclick="user()"; width="15%" height="200px" src="https://www.mega.pk/items_images/ts_24671.webp" alt="">
+    <img onclick="user()"; width="15%" height="200px" src="https://images.priceoye.pk/me-mobile-m6310-pakistan-priceoye-8ipmf-500x500.webp" alt=""> <br><br><br>
+
+    <!-- Q-3  -->
+    <h2>Student Table</h2>
+    <table id="myTable" border="1px solid black">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mirza Suban Baig</td>
+            <td>16</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>John</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Doe</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ali</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Amna</td>
+            <td>6</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>James</td>
+            <td>7</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Lisa</td>
+            <td>11</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Alisha</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Sameer</td>
+            <td>14</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Laiba</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+    <br><br><br>
+    
+    <!-- Q-4  -->
+    <h2>Image Change</h2>
+    <img onmouseover="src='https://w0.peakpx.com/wallpaper/346/911/HD-wallpaper-bike-bike-super.jpg'";
+    onmouseout="src='https://w.forfun.com/fetch/3c/3cc1798fbce547db71fcc05fe49a2ac4.jpeg'";
+    width="20%" height="300px" src="https://w.forfun.com/fetch/3c/3cc1798fbce547db71fcc05fe49a2ac4.jpeg" alt="">
+
+    <!-- Q-5  -->
+    <h2>Counter</h2>
+      <button id="increaseBtn" onclick="increaseCounter()">Increase</button>
+      <button id="decreaseBtn" onclick="decreaseCounter()">Decrease</button>
+      <p id="counter">0</p>
+    
+      <h1>Chapter # 49-52</h1>
+      <h2>SignUp Form</h2>
+
+      <!-- Q-1  -->
+      <form id="signupForm">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName"><br>
+        
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <div id="formData"></div>
+
+    <!-- Q-2  -->
+        <h2>Item Details</h2>
+        <p>Some brief details about the item...</p>
+        <button onclick="showFullDetails()">Read More</button>
+
+
+
+</body>
+
+<script src="app.js"></script>
+</html>
